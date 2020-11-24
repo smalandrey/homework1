@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="#" method="post" name="homework_3">
+    <div class="container">
+      <div>
+        <p>Ваше имя</p>
+        <input  tabindex="1" type="text" name="name" placeholder="Введите имя">
+      </div>
+      <div>
+        <p>Ваша фамилия</p>
+        <input type="text" tabindex="2" name="surname" placeholder="Введите фамилию"> 
+      </div>
+      <div>
+        <p>Ваше email</p>
+        <input tabindex="3" type="email" name="email" placeholder="Введите email">
+      </div>
+      <div>
+        <p>Введите дату рождения</p>
+        <input tabindex="4" type="date" name="data">
+      </div>
+      <div>
+        <p>Ваше телефон</p>
+        <input  tabindex="5" type="tel" name="tel"  pattern="[0-9]{10}" placeholder="Введите телефон">
+      </div>
+      <div>
+          <p>Выберите размер</p>
+          <div><label for="size"><input tabindex="6" type="radio" name="size" value="size_1" id="size"> XS</label></div>
+          <div><label for="size 2"><input tabindex="6" type="radio" name="size" value="size_2" id="size 2"> S</label></div>
+          <div><label for="size 3"><input tabindex="6" type="radio" name="size" value="size_3" id="size 3"> M</label></div>
+          <div><label for="size 4"><input tabindex="6" type="radio" name="size" value="size_4" id="size 4"> L</label></div>
+      </div>
+      
+
+    <div>
+        <p>Дополнителные опции</p>
+        <div><label for="paid"><input tabindex="7" type="checkbox" name="chexbox" id="paid"> Доставка</label></div>
+        <div><label for="paid_2"><input tabindex="8" type="checkbox" name="checkbox" id="paid_2"> Оплата картой</label></div>
+        <div><label for="paid_3"><input tabindex="9" type="checkbox" name="checkbox" id="paid_3"> Перезвонить мне</label></div>
+    </div>
+    <div>
+      <p>Выберете цвет</p>
+      <select name="color">
+        <option value="black">Черный</option>
+        <option value="red">Красный</option>
+        <option value="blue">Синий</option>
+        <option value="wtite">Белый</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <button type="submit">Отправить</button>
+      <button type="reset">Очистить</button>
+    </div>
+      
+
+    
+    </div>
+  </form>
+  
+</body>
+</html>
